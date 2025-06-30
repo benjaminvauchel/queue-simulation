@@ -4,7 +4,7 @@ Ce projet simule le fonctionnement d'une file d'attente à un guichet, dans le b
 
 ## Objectifs
 
-- Simuler des journées ou périodes complètes avec différentes fréquences d'arrivée (`λ`) et durées de service.
+- Simuler des journées ou périodes complètes avec différentes fréquences d'arrivée (λ) et durées de service.
 - Étudier les indicateurs de performance : taille moyenne de la file, taux de clients non servis, temps de réponse moyen, etc.
 - Générer des fichiers `.csv` pour visualiser les résultats sous forme de courbes.
 
@@ -59,9 +59,9 @@ Le programme permet de générer des fichiers `.csv` analysables.
 
 * **Taille moyenne de la file en fonction de λ :** croissance rapide au-delà d'un certain seuil de saturation.
 
-* **Taux de clients non servis :** augmente fortement lorsque `λ` dépasse une valeur critique (ex. 0.045).
+* **Taux de clients non servis :** augmente fortement lorsque λ dépasse une valeur critique (ex. 0.045).
 
-* **Temps de réponse moyen :** dépend fortement de la durée de service maximale et de `λ`.
+* **Temps de réponse moyen :** dépend fortement de la durée de service maximale et de λ.
 
 * **Débit journalier moyen :** suit linéairement la fréquence d'arrivée.
 
