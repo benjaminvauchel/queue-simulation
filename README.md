@@ -54,7 +54,7 @@ Des exemples d'utilisation sont disponibles dans main.c.
 
 ---
 
-## Résultats & Analyse
+## Quelques résultats & Analyse
 
 Le programme permet de générer des fichiers `.csv` analysables.
 
