@@ -38,6 +38,8 @@ make main
 
 Des exemples d'utilisation sont disponibles dans main.c.
 
+---
+
 ## Principales fonctions à tester
 
 * `enregistrerJournee` : simule une journée de travail.
@@ -50,12 +52,11 @@ Des exemples d'utilisation sont disponibles dans main.c.
 
 * `enregistrerPeriodeMaxsrv` : variation de la durée maximale de service.
 
+---
+
 ## Résultats & Analyse
 
 Le programme permet de générer des fichiers `.csv` analysables.
-
-
-## Résultats
 
 * **Taille moyenne de la file en fonction de λ :** croissance rapide au-delà d'un certain seuil de saturation.
 
@@ -66,6 +67,8 @@ Le programme permet de générer des fichiers `.csv` analysables.
 * **Débit journalier moyen :** suit linéairement la fréquence d'arrivée.
 
 Ces résultats permettent de calibrer les paramètres du système (par exemple la durée de service) pour garantir un service acceptable.
+
+---
 
 ## Remarques
 
